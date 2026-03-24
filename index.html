@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign Language Translator</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils"></script>
+
+</head>
+
+<body>
+
+<header>
+Sign Language Alphabet Translator
+</header>
+
+<main>
+
+<div class="video-container">
+<h2>Camera Feed</h2>
+
+<video id="video" autoplay muted playsinline></video>
+<canvas id="canvas" width="640" height="480"></canvas>
+
+<div class="controls">
+<button onclick="startCamera()">Start</button>
+<button onclick="stopCamera()">Stop</button>
+<button onclick="clearText()">Clear</button>
+</div>
+
+</div>
+
+<div class="output-container">
+
+<h2>Detected Letter</h2>
+<p id="letter">-</p>
+
+<h2>Sentence</h2>
+<p id="sentence"></p>
+
+</div>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
