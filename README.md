@@ -1,4 +1,3 @@
-# Sign-language-Recognition-System
 Overview
 
 The Sign Language Recognition System is a computer vision and machine learning based application that detects and interprets hand gestures used in sign language. The system captures hand movements through a webcam and translates them into readable text, helping bridge the communication gap between hearing-impaired individuals and others.
@@ -31,25 +30,3 @@ Model Prediction
 A trained machine learning/deep learning model predicts the gesture.
 Output Layer
 Displays the recognized sign as text.
-Installation
-Clone the Repository
-git clone https://github.com/yourusername/Sign-Language-Recognition-System.git
-cd Sign-Language-Recognition-System
-Install Dependencies
-pip install -r requirements.txt
-Run the Project
-python app.py
-Project Structure
-Sign-Language-Recognition-System
-│
-├── dataset
-├── model
-├── training
-├── app.py
-├── requirements.txt
-└── README.md
-Future Improvements
-Add full sentence recognition
-Support multiple sign languages
-Improve model accuracy with larger datasets
-Deploy as a web or mobile application
